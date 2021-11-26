@@ -1,0 +1,61 @@
+.homeContainer {
+  display: flex;
+  position: relative;
+  width: 91.79%;
+  height: 100vh;
+  margin-left: 8.21%;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--backgroundColor);
+}
+
+.anotherProgress {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 30%;
+  left: 0;
+  background-color: blue;
+  transition: all 1s ease;
+}
+
+.homeMainText {
+  margin-top: 13%;
+  color: var(--textColor);
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.homeBackProgressBar {
+  display: flex;
+  margin-top: 32px;
+  width: 70%;
+  height: 5%;
+  border-radius: 199999px;
+  background-color: var(--barColor);
+}
+
+.homeProgressBar {
+  display: flex;
+  height: 100%;
+  border-radius: 1999999px;
+  background-image: linear-gradient(to right, var(--secundaryAlt), var(--secundary));
+  transition: "width 1s ease";
+}
+
+.homeButtonsContainer {
+  display: flex;
+  margin-top: 64px;
+  gap: 64px;
+}
+
+.homeButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  height: 85px;
+  border-radius: 8px;
+  background-color: var(--primary);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
