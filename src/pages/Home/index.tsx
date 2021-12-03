@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { BaseSyntheticEvent, useState, useEffect } from 'react';
 import './styles.css'
 import { ReactComponent as Edit } from '../../assets/edit.svg';
